@@ -1,0 +1,4 @@
+Kubernetes 배포(참고):
+- Rolling: 기본 Deployment rollingUpdate
+- Canary/Blue-Green: Argo Rollouts 또는 서비스 메시 기반 권장
+- 정책 검증: OPA/Kyverno/Conftest로 배포 전 게이트 적용
